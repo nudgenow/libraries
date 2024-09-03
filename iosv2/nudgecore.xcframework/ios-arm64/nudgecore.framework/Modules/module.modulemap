@@ -1,0 +1,4 @@
+framework module nudgecore {
+  header "nudgecore-Swift.h"
+  requires objc
+}
