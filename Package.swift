@@ -1,11 +1,11 @@
-swift-tools-version:5.5
+// swift-tools-version:5.5
 import PackageDescription
 let packageName = "nudgecore"
 let package = Package(
     name: "nudgecore",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: packageName),
+        .library(name: packageName,targets: [packageName]),
     ],
     targets: [
         .binaryTarget(
